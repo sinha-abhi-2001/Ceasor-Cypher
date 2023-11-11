@@ -32,3 +32,4 @@ elif direction == "decode":
     decrypt(cipher_text=text, shift_amount=shift)
 else:
     print("Wrong Input")
+def caesar()
