@@ -14,9 +14,6 @@ def caesar(input_text,shift_amount,user_direction):
         if direction == "encode":
             new_position = position + shift_amount
             output_text += alphabet[new_position]
-        elif direction == "decode":
-            new_position = position - shift_amount
-            output_text += alphabet[new_position]
         else:
             print("Wrong input")
             break
